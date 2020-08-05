@@ -1,3 +1,4 @@
+  
 const Discord = require('discord.js');
 const client = new Discord.Client();
 
@@ -12,4 +13,4 @@ client.on('message', message => {
 });
 
 // THIS  MUST  BE  THIS  WAY
-client.login(NzQwNTkyNzk0MTQ1NTIxNzA0.XyrQyQ.dJG9333UfytZdeejuV_ol9P1eHI).BO;
+client.login(process.env.BOT_TOKEN);
